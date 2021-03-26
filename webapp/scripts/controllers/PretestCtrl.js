@@ -1,8 +1,13 @@
 angular.module('tutor').controller("PretestCtrl", function($scope, $window, $location, configService, User) {
 
-    var themes = ["default", "stFemale", "stMale"];
-
-    var random = Math.floor((Math.random() * 10000)) % 3;
+    //var themes = ["default", "stFemale", "stMale"];
+    var themes = ["default"];
+    //var themes = [ "stFemale"];
+    //var themes = ["stMale"];
+    var random = 0;
+    //var random = 1;
+    //var random = 2;
+    //var random = Math.floor((Math.random() * 10000)) % 3;
 
     $scope.questions = [
     "Minhas habilidades combinam com o desafio que estou experimentando",
