@@ -1,8 +1,8 @@
 angular.module('tutor').controller("PretestCtrl", function($scope, $window, $location, configService, User) {
 
     //var themes = ["default", "stFemale", "stMale"];
-    var themes = ["default"];
-    //var themes = [ "stFemale"];
+    //var themes = ["default"];
+    var themes = [ "stFemale"];
     //var themes = ["stMale"];
     var random = 0;
     //var random = 1;
